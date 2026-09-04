@@ -71,21 +71,13 @@ git clone https://github.com/Apurva-hash/customer-support-resolution-assistant.g
 pip install -r requirements.txt
 ```
 
-3. Add Gemini API Key
-
-Create a `.env` file:
-
-```env
-GEMINI_API_KEY=YOUR_API_KEY
-```
-
-4. Run the application
+3. Run the application
 
 ```bash
 python app.py
 ```
 
-5. Open in browser
+4. Open in browser
 
 ```text
 http://localhost:8000
@@ -93,7 +85,7 @@ http://localhost:8000
 
 ## Demo Video
 
-Add your demo video link here.
+https://drive.google.com/file/d/17UQc3AWxM6eICFvIeEv1dv-8zSN8YC10/view?usp=drivesdk
 
 ## GitHub Repository
 
