@@ -253,7 +253,7 @@ The deterministic escalation engine triggers when:
 | LLM | Gemini 2.5 Flash (`gemini-2.5-flash`) |
 | Embeddings | `gemini-embedding-001` |
 | Vector DB | FAISS (flat inner-product index) |
-| Frontend | HTML5, Vanilla CSS, Vanilla JS |
+| Frontend | HTML5,  CSS,  JS |
 | Storage | JSON files |
 | Server | Uvicorn (ASGI) |
 
