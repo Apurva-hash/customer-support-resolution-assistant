@@ -1,0 +1,152 @@
+[
+  {
+    "article_id": "ART001",
+    "title": "Diagnosing and Fixing Slow Broadband Speeds",
+    "category": "Slow Internet"
+  },
+  {
+    "article_id": "ART002",
+    "title": "Slow Internet During Peak Hours (Evening Congestion)",
+    "category": "Slow Internet"
+  },
+  {
+    "article_id": "ART003",
+    "title": "Router Setup and Configuration Guide",
+    "category": "Router Problems"
+  },
+  {
+    "article_id": "ART004",
+    "title": "Router Not Connecting to Internet",
+    "category": "Router Problems"
+  },
+  {
+    "article_id": "ART005",
+    "title": "Router Firmware Update Procedure",
+    "category": "Router Problems"
+  },
+  {
+    "article_id": "ART006",
+    "title": "Understanding Your Monthly Bill",
+    "category": "Billing Issues"
+  },
+  {
+    "article_id": "ART007",
+    "title": "Disputing Incorrect Charges on Your Account",
+    "category": "Billing Issues"
+  },
+  {
+    "article_id": "ART008",
+    "title": "Requesting a Refund for Overpayment",
+    "category": "Refund Requests"
+  },
+  {
+    "article_id": "ART009",
+    "title": "Refund Policy for Service Downtime",
+    "category": "Refund Requests"
+  },
+  {
+    "article_id": "ART010",
+    "title": "Upgrading Your Broadband or Mobile Plan",
+    "category": "Plan Upgrade"
+  },
+  {
+    "article_id": "ART011",
+    "title": "Downgrading Your Plan - Process and Implications",
+    "category": "Plan Downgrade"
+  },
+  {
+    "article_id": "ART012",
+    "title": "SIM Card Activation for New Mobile Connections",
+    "category": "SIM Activation"
+  },
+  {
+    "article_id": "ART013",
+    "title": "SIM Card Replacement and Port Process",
+    "category": "SIM Activation"
+  },
+  {
+    "article_id": "ART014",
+    "title": "Network Outage - What To Do and How To Get Updates",
+    "category": "Network Outage"
+  },
+  {
+    "article_id": "ART015",
+    "title": "Planned Maintenance and Service Interruptions",
+    "category": "Network Outage"
+  },
+  {
+    "article_id": "ART016",
+    "title": "Mobile Recharge Not Credited to Account",
+    "category": "Recharge Problems"
+  },
+  {
+    "article_id": "ART017",
+    "title": "Recharge Failed but Amount Deducted",
+    "category": "Recharge Problems"
+  },
+  {
+    "article_id": "ART018",
+    "title": "Understanding Data Usage and Monitoring Consumption",
+    "category": "Data Usage Issues"
+  },
+  {
+    "article_id": "ART019",
+    "title": "Data Speed Throttling After Fair Usage Policy (FUP)",
+    "category": "Data Usage Issues"
+  },
+  {
+    "article_id": "ART020",
+    "title": "How to Migrate Between Prepaid and Postpaid Plans",
+    "category": "Plan Upgrade"
+  },
+  {
+    "article_id": "ART021",
+    "title": "WiFi Router Placement and Signal Optimization",
+    "category": "Router Problems"
+  },
+  {
+    "article_id": "ART022",
+    "title": "Mobile Network Coverage Issues",
+    "category": "Network Outage"
+  },
+  {
+    "article_id": "ART023",
+    "title": "International Roaming Activation and Usage",
+    "category": "Plan Upgrade"
+  },
+  {
+    "article_id": "ART024",
+    "title": "Account Suspension and Reactivation Process",
+    "category": "Billing Issues"
+  },
+  {
+    "article_id": "ART025",
+    "title": "5G Service - Availability, Devices, and Troubleshooting",
+    "category": "Network Outage"
+  },
+  {
+    "article_id": "ART026",
+    "title": "Broadband Line Installation and Setup",
+    "category": "Slow Internet"
+  },
+  {
+    "article_id": "ART027",
+    "title": "MyAccount Portal - Login and Password Issues",
+    "category": "Billing Issues"
+  },
+  {
+    "article_id": "ART028",
+    "title": "Static IP Address Assignment for Business Customers",
+    "category": "Plan Upgrade"
+  },
+  {
+    "article_id": "ART029",
+    "title": "Family Plan and Multi-SIM Management",
+    "category": "Plan Upgrade"
+  },
+  {
+    "article_id": "ART030",
+    "title": "Data Balance Check and Usage Alerts Setup",
+    "category": "Data Usage Issues"
+  }
+]

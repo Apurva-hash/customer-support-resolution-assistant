@@ -1,0 +1,190 @@
+[
+  {
+    "customer_id": "CUST001",
+    "name": "Aditya Sharma",
+    "plan": "Broadband Turbo 200 Mbps",
+    "billing_status": "active",
+    "recent_tickets": [
+      {"ticket_id": "TKT-1001", "issue": "Slow internet speeds during evening", "status": "open", "date": "2024-12-20"},
+      {"ticket_id": "TKT-0988", "issue": "Router reboot required", "status": "resolved", "date": "2024-12-10"}
+    ]
+  },
+  {
+    "customer_id": "CUST002",
+    "name": "Priya Nair",
+    "plan": "Mobile Unlimited Pro",
+    "billing_status": "overdue",
+    "recent_tickets": [
+      {"ticket_id": "TKT-1002", "issue": "Unexpected bill charges", "status": "open", "date": "2024-12-22"},
+      {"ticket_id": "TKT-0991", "issue": "Data balance discrepancy", "status": "escalated", "date": "2024-12-15"}
+    ]
+  },
+  {
+    "customer_id": "CUST003",
+    "name": "Rahul Mehta",
+    "plan": "Broadband Basic 50 Mbps",
+    "billing_status": "active",
+    "recent_tickets": [
+      {"ticket_id": "TKT-1003", "issue": "SIM activation pending", "status": "open", "date": "2024-12-23"}
+    ]
+  },
+  {
+    "customer_id": "CUST004",
+    "name": "Sneha Kulkarni",
+    "plan": "Mobile Data Plus 2GB/day",
+    "billing_status": "suspended",
+    "recent_tickets": [
+      {"ticket_id": "TKT-1004", "issue": "Account suspended without notice", "status": "escalated", "date": "2024-12-21"},
+      {"ticket_id": "TKT-0995", "issue": "Recharge not credited", "status": "resolved", "date": "2024-12-12"}
+    ]
+  },
+  {
+    "customer_id": "CUST005",
+    "name": "Vikram Joshi",
+    "plan": "Broadband Ultra 500 Mbps",
+    "billing_status": "active",
+    "recent_tickets": [
+      {"ticket_id": "TKT-1005", "issue": "Router configuration issues", "status": "open", "date": "2024-12-19"}
+    ]
+  },
+  {
+    "customer_id": "CUST006",
+    "name": "Ananya Reddy",
+    "plan": "Mobile Voice + Data Combo",
+    "billing_status": "active",
+    "recent_tickets": [
+      {"ticket_id": "TKT-1006", "issue": "Network outage in area", "status": "resolved", "date": "2024-12-18"},
+      {"ticket_id": "TKT-1007", "issue": "Plan upgrade request", "status": "open", "date": "2024-12-24"}
+    ]
+  },
+  {
+    "customer_id": "CUST007",
+    "name": "Karthik Iyer",
+    "plan": "Broadband Home 100 Mbps",
+    "billing_status": "active",
+    "recent_tickets": [
+      {"ticket_id": "TKT-1008", "issue": "Refund request for double payment", "status": "open", "date": "2024-12-22"}
+    ]
+  },
+  {
+    "customer_id": "CUST008",
+    "name": "Meera Pillai",
+    "plan": "Mobile 5G Premium",
+    "billing_status": "active",
+    "recent_tickets": [
+      {"ticket_id": "TKT-1009", "issue": "5G network not available in area", "status": "open", "date": "2024-12-20"},
+      {"ticket_id": "TKT-0999", "issue": "Data speed throttling", "status": "resolved", "date": "2024-12-08"}
+    ]
+  },
+  {
+    "customer_id": "CUST009",
+    "name": "Suresh Patel",
+    "plan": "Broadband Business 1 Gbps",
+    "billing_status": "active",
+    "recent_tickets": [
+      {"ticket_id": "TKT-1010", "issue": "Business line downtime", "status": "escalated", "date": "2024-12-21"}
+    ]
+  },
+  {
+    "customer_id": "CUST010",
+    "name": "Divya Krishnan",
+    "plan": "Mobile Prepaid Basic",
+    "billing_status": "active",
+    "recent_tickets": [
+      {"ticket_id": "TKT-1011", "issue": "Recharge amount deducted, balance not updated", "status": "open", "date": "2024-12-23"}
+    ]
+  },
+  {
+    "customer_id": "CUST011",
+    "name": "Arjun Bhatia",
+    "plan": "Broadband Turbo 200 Mbps",
+    "billing_status": "overdue",
+    "recent_tickets": [
+      {"ticket_id": "TKT-1012", "issue": "Billing dispute - incorrect amount", "status": "escalated", "date": "2024-12-20"},
+      {"ticket_id": "TKT-1013", "issue": "Internet disconnecting frequently", "status": "open", "date": "2024-12-22"}
+    ]
+  },
+  {
+    "customer_id": "CUST012",
+    "name": "Lakshmi Venkat",
+    "plan": "Mobile Unlimited Family Pack",
+    "billing_status": "active",
+    "recent_tickets": [
+      {"ticket_id": "TKT-1014", "issue": "Request to downgrade plan", "status": "open", "date": "2024-12-24"}
+    ]
+  },
+  {
+    "customer_id": "CUST013",
+    "name": "Rohit Gupta",
+    "plan": "Broadband Basic 50 Mbps",
+    "billing_status": "active",
+    "recent_tickets": [
+      {"ticket_id": "TKT-1015", "issue": "Cannot access certain websites", "status": "open", "date": "2024-12-19"}
+    ]
+  },
+  {
+    "customer_id": "CUST014",
+    "name": "Kavita Singh",
+    "plan": "Mobile Data 1GB/day",
+    "billing_status": "active",
+    "recent_tickets": [
+      {"ticket_id": "TKT-1016", "issue": "SIM card not working after replacement", "status": "open", "date": "2024-12-21"}
+    ]
+  },
+  {
+    "customer_id": "CUST015",
+    "name": "Manish Tiwari",
+    "plan": "Broadband Ultra 500 Mbps",
+    "billing_status": "active",
+    "recent_tickets": [
+      {"ticket_id": "TKT-1017", "issue": "Data usage showing higher than expected", "status": "open", "date": "2024-12-20"}
+    ]
+  },
+  {
+    "customer_id": "CUST016",
+    "name": "Pooja Desai",
+    "plan": "Mobile Voice Only",
+    "billing_status": "active",
+    "recent_tickets": [
+      {"ticket_id": "TKT-1018", "issue": "Call drops frequently", "status": "open", "date": "2024-12-22"}
+    ]
+  },
+  {
+    "customer_id": "CUST017",
+    "name": "Sanjay Verma",
+    "plan": "Broadband Home 100 Mbps",
+    "billing_status": "suspended",
+    "recent_tickets": [
+      {"ticket_id": "TKT-1019", "issue": "Service suspended, requesting reactivation", "status": "open", "date": "2024-12-23"},
+      {"ticket_id": "TKT-1005", "issue": "Late payment issue", "status": "resolved", "date": "2024-12-15"}
+    ]
+  },
+  {
+    "customer_id": "CUST018",
+    "name": "Nidhi Malhotra",
+    "plan": "Mobile 5G Premium",
+    "billing_status": "active",
+    "recent_tickets": [
+      {"ticket_id": "TKT-1020", "issue": "Unable to connect to 5G network", "status": "open", "date": "2024-12-24"}
+    ]
+  },
+  {
+    "customer_id": "CUST019",
+    "name": "Amit Choudhary",
+    "plan": "Broadband Business 1 Gbps",
+    "billing_status": "active",
+    "recent_tickets": [
+      {"ticket_id": "TKT-1021", "issue": "Static IP assignment request", "status": "open", "date": "2024-12-20"}
+    ]
+  },
+  {
+    "customer_id": "CUST020",
+    "name": "Swati Bhatt",
+    "plan": "Mobile Unlimited Pro",
+    "billing_status": "active",
+    "recent_tickets": [
+      {"ticket_id": "TKT-1022", "issue": "International roaming not working", "status": "open", "date": "2024-12-21"},
+      {"ticket_id": "TKT-1000", "issue": "Plan upgrade completed", "status": "resolved", "date": "2024-12-10"}
+    ]
+  }
+]

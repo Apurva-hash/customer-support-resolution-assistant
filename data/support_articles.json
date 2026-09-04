@@ -1,0 +1,242 @@
+[
+  {
+    "article_id": "ART001",
+    "title": "Diagnosing and Fixing Slow Broadband Speeds",
+    "category": "Slow Internet",
+    "issue": "Customer experiencing significantly reduced internet speeds compared to subscribed plan.",
+    "resolution": "1. Run a speed test at fast.com or speedtest.net at different times of day. 2. Connect device directly to router via Ethernet and retest. 3. Restart router by unplugging for 30 seconds and reconnecting. 4. Check for background applications consuming bandwidth. 5. Ensure router firmware is updated. 6. Check if multiple devices are connected and consuming bandwidth simultaneously. 7. If speeds are still low, schedule a technician visit by contacting support.",
+    "escalation_condition": "Escalate if speeds are consistently below 50% of subscribed plan after all troubleshooting steps, or if the issue persists for more than 48 hours."
+  },
+  {
+    "article_id": "ART002",
+    "title": "Slow Internet During Peak Hours (Evening Congestion)",
+    "category": "Slow Internet",
+    "issue": "Customer experiences slow internet specifically during peak usage hours (6 PM - 11 PM).",
+    "resolution": "1. This may be due to network congestion in the local area during peak hours. 2. Try connecting via 5 GHz WiFi band instead of 2.4 GHz for better performance. 3. Schedule large downloads for off-peak hours (midnight to 6 AM). 4. Consider upgrading to a higher-speed plan with dedicated bandwidth. 5. Our engineering team continuously works to expand capacity in high-usage areas.",
+    "escalation_condition": "Escalate if the issue is widespread in a specific area, indicating a network infrastructure problem requiring engineering intervention."
+  },
+  {
+    "article_id": "ART003",
+    "title": "Router Setup and Configuration Guide",
+    "category": "Router Problems",
+    "issue": "Customer unable to set up router or configure WiFi settings correctly.",
+    "resolution": "1. Connect router to modem using the provided Ethernet cable. 2. Plug in the power adapter and wait 2 minutes for router to boot. 3. Connect to the default WiFi network (printed on router label). 4. Open browser and go to 192.168.1.1 or 192.168.0.1 to access router settings. 5. Default credentials are admin/admin or admin/password. 6. Change WiFi name (SSID) and password under Wireless Settings. 7. Save settings and reconnect devices with new credentials.",
+    "escalation_condition": "Escalate if the router cannot be accessed via the default gateway or if factory reset does not resolve configuration issues."
+  },
+  {
+    "article_id": "ART004",
+    "title": "Router Not Connecting to Internet",
+    "category": "Router Problems",
+    "issue": "Router shows WiFi signal but no internet connectivity.",
+    "resolution": "1. Check all cable connections between modem and router. 2. Restart both modem and router (power off for 30 seconds, modem first, then router). 3. Check the WAN/Internet LED on router - it should be green/solid. 4. Verify ISP credentials in router WAN settings if using PPPoE. 5. Try factory reset by holding reset button for 10 seconds. 6. Check if the issue is specific to your router or all devices on the network.",
+    "escalation_condition": "Escalate if the WAN LED remains red/off after all restarts and factory reset, indicating a line or provisioning issue from our end."
+  },
+  {
+    "article_id": "ART005",
+    "title": "Router Firmware Update Procedure",
+    "category": "Router Problems",
+    "issue": "Customer needs to update router firmware for better performance or security patches.",
+    "resolution": "1. Log into router admin panel at 192.168.1.1. 2. Navigate to Administration > Firmware Update or System > Update. 3. Click 'Check for Updates' for automatic firmware detection. 4. If manual update needed, download firmware from our support portal using your router model number. 5. Click 'Upload' and select the downloaded file. 6. Do NOT power off during update process (takes 3-5 minutes). 7. Router will restart automatically after update.",
+    "escalation_condition": "Escalate if firmware update fails repeatedly or if the router becomes unresponsive after an update attempt."
+  },
+  {
+    "article_id": "ART006",
+    "title": "Understanding Your Monthly Bill",
+    "category": "Billing Issues",
+    "issue": "Customer confused about charges appearing on their monthly bill.",
+    "resolution": "1. Your bill includes: Base plan charge, taxes and regulatory fees (8-12% of base), any add-on services, one-time charges for equipment or installation. 2. Download itemized bill from MyAccount portal or app. 3. Compare charges with your plan details available in account settings. 4. First-month bills may appear higher due to pro-rated charges from activation date. 5. If you see an unrecognized charge, note the date and description and contact billing support.",
+    "escalation_condition": "Escalate if the customer identifies charges they did not authorize, or if the discrepancy is more than ₹500 and cannot be explained by standard billing components."
+  },
+  {
+    "article_id": "ART007",
+    "title": "Disputing Incorrect Charges on Your Account",
+    "category": "Billing Issues",
+    "issue": "Customer believes they have been incorrectly charged on their account.",
+    "resolution": "1. Download your last 3 billing statements from the MyAccount portal. 2. Document specific charges you are disputing with amounts and dates. 3. Submit a billing dispute form through the MyAccount portal under Billing > Dispute a Charge. 4. Our billing team will review and respond within 5-7 business days. 5. Your service will not be interrupted during an active dispute investigation. 6. If the dispute is resolved in your favor, credit will be applied to your next bill.",
+    "escalation_condition": "Escalate to the billing specialist team if the disputed amount exceeds ₹2000, if the same charge has been disputed before, or if the customer reports fraudulent activity on their account."
+  },
+  {
+    "article_id": "ART008",
+    "title": "Requesting a Refund for Overpayment",
+    "category": "Refund Requests",
+    "issue": "Customer made a duplicate payment or overpaid and wants a refund.",
+    "resolution": "1. Log into MyAccount portal and go to Billing > Payment History. 2. Identify the duplicate or excess payment with transaction ID. 3. Submit a refund request through Billing > Request Refund, attaching the transaction ID. 4. Refunds for credit/debit card payments are processed within 7-10 business days. 5. UPI and net banking refunds are processed within 3-5 business days. 6. For cash/cheque payments, a bank transfer will be arranged - please provide bank details.",
+    "escalation_condition": "Escalate if refund has not been processed after 15 business days, or if the refund amount exceeds ₹5000."
+  },
+  {
+    "article_id": "ART009",
+    "title": "Refund Policy for Service Downtime",
+    "category": "Refund Requests",
+    "issue": "Customer requesting refund or credit for period of service outage or degradation.",
+    "resolution": "1. Service credits are provided for verified outages lasting more than 4 continuous hours. 2. Credit is calculated as: (Monthly charge / 30) × Number of outage days. 3. To claim, submit a service credit request through MyAccount portal with the outage date range and ticket number. 4. Our team verifies outage records against network logs. 5. Approved credits are applied to the next billing cycle. 6. Note: Planned maintenance windows do not qualify for service credits.",
+    "escalation_condition": "Escalate if the customer is claiming credits for an outage that lasted more than 72 hours or if the service credit claim exceeds ₹1000."
+  },
+  {
+    "article_id": "ART010",
+    "title": "Upgrading Your Broadband or Mobile Plan",
+    "category": "Plan Upgrade",
+    "issue": "Customer wants to upgrade to a higher-tier broadband or mobile plan.",
+    "resolution": "1. Log into MyAccount portal or app. 2. Go to Plans > Change Plan. 3. View available upgrade options with pricing and features. 4. Select desired plan and click 'Upgrade'. 5. Upgrades are effective immediately upon confirmation. 6. Your current billing cycle charges are pro-rated: you pay the difference for the remaining days. 7. New plan speeds and features are activated within 2 hours for broadband, instantly for mobile. 8. No installation or activation fees for plan upgrades.",
+    "escalation_condition": "Escalate if the plan upgrade portal is not working, or if the customer requires a custom enterprise plan not listed in the standard catalog."
+  },
+  {
+    "article_id": "ART011",
+    "title": "Downgrading Your Plan - Process and Implications",
+    "category": "Plan Downgrade",
+    "issue": "Customer wants to switch to a lower-tier or more affordable plan.",
+    "resolution": "1. Log into MyAccount portal. 2. Go to Plans > Change Plan and select a lower-tier option. 3. Downgrades take effect from the next billing cycle (not immediate). 4. No refund is given for the current billing cycle after a downgrade request. 5. If you are on a contract, early downgrade may incur a fee - check your contract terms in Account Settings. 6. For broadband downgrades, speed reduction is applied from the next billing date. 7. Review the feature comparison table before confirming.",
+    "escalation_condition": "Escalate if the customer is on a business contract plan and wants to downgrade, as this may have contractual implications requiring a specialist review."
+  },
+  {
+    "article_id": "ART012",
+    "title": "SIM Card Activation for New Mobile Connections",
+    "category": "SIM Activation",
+    "issue": "Customer's new SIM card is not activating or showing no service.",
+    "resolution": "1. Ensure SIM is inserted correctly into the tray (gold contacts facing down on most phones). 2. Restart your phone after inserting the SIM. 3. New SIMs take up to 4 hours to activate from the time of purchase/delivery. 4. Check activation status at our website using your SIM number (printed on SIM card tray). 5. Ensure your phone is compatible with our network bands (4G/5G). 6. Try the SIM in another phone to rule out device issues. 7. If not activated after 4 hours, contact support with your SIM number and order ID.",
+    "escalation_condition": "Escalate if the SIM has not activated after 24 hours, if the customer's KYC verification is pending, or if there is a porting issue from another operator."
+  },
+  {
+    "article_id": "ART013",
+    "title": "SIM Card Replacement and Port Process",
+    "category": "SIM Activation",
+    "issue": "Customer needs to replace a lost/damaged SIM or port their number from another provider.",
+    "resolution": "1. For SIM replacement: Visit nearest store with ID proof, or order via MyAccount portal (delivery in 2-3 days). 2. SIM replacement fee is ₹100 and is charged to your next bill. 3. For number porting: Generate UPC code by sending PORT to 1900 from the number you want to port. 4. Visit our store or apply online with UPC code, ID proof, and address proof. 5. Porting takes 3-7 working days. 6. Ensure your current operator has no pending dues before porting.",
+    "escalation_condition": "Escalate if porting request is rejected by the previous operator or if the SIM replacement process fails due to KYC mismatch."
+  },
+  {
+    "article_id": "ART014",
+    "title": "Network Outage - What To Do and How To Get Updates",
+    "category": "Network Outage",
+    "issue": "Customer experiencing complete loss of service due to network outage in their area.",
+    "resolution": "1. Check our real-time outage map at status.telecomco.com using your postcode. 2. If an outage is confirmed in your area, our engineering team is aware and working to restore service. 3. Estimated restoration times are updated every 30 minutes on the outage page. 4. Register for SMS/email alerts for your area on the outage page to receive automatic updates. 5. Do not restart your router repeatedly during an outage as it will not help. 6. Emergency calls (100, 101, 108) work even during outages.",
+    "escalation_condition": "Escalate if the outage has lasted more than 4 hours without an estimated resolution time, or if it is affecting a business customer with an SLA agreement."
+  },
+  {
+    "article_id": "ART015",
+    "title": "Planned Maintenance and Service Interruptions",
+    "category": "Network Outage",
+    "issue": "Customer's service is interrupted due to planned maintenance activity.",
+    "resolution": "1. Planned maintenance is typically scheduled between 2 AM and 6 AM to minimize impact. 2. We send advance notifications via SMS and email 48 hours before planned maintenance. 3. Check your notification preferences in MyAccount > Notification Settings. 4. Planned maintenance windows are listed on our maintenance schedule page. 5. If your service does not restore after the maintenance window ends, restart your router. 6. Service credits are NOT provided for planned maintenance interruptions.",
+    "escalation_condition": "Escalate if service has not restored more than 1 hour after the planned maintenance window ended."
+  },
+  {
+    "article_id": "ART016",
+    "title": "Mobile Recharge Not Credited to Account",
+    "category": "Recharge Problems",
+    "issue": "Customer recharged their mobile account but the balance or plan has not been updated.",
+    "resolution": "1. Recharges typically reflect within 5-15 minutes. 2. Check your balance by dialing *123# or in the MyAccount app. 3. Note your recharge transaction ID from your payment receipt or bank statement. 4. Verify the mobile number you recharged - ensure it matches your number exactly. 5. If recharged the wrong number, we cannot reverse UPI/card transactions to another number directly - contact support with both numbers and transaction ID. 6. For valid recharges not reflecting after 30 minutes, raise a recharge complaint through MyAccount > Recharge Issues.",
+    "escalation_condition": "Escalate if the recharge amount was debited from the customer's account but has not reflected after 2 hours, or if the transaction ID cannot be found in our payment gateway records."
+  },
+  {
+    "article_id": "ART017",
+    "title": "Recharge Failed but Amount Deducted",
+    "category": "Recharge Problems",
+    "issue": "Customer's payment was deducted during recharge but the transaction shows as failed.",
+    "resolution": "1. This typically occurs due to a timeout between payment gateway and our server. 2. Wait 30 minutes - most such transactions auto-reverse within this time. 3. Check your bank statement or UPI app to confirm deduction. 4. If amount was deducted and shows in your bank as successful, it should reflect within 2 hours. 5. If not resolved, file a complaint at MyAccount > Billing > Failed Recharge with transaction ID, amount, date, and payment method. 6. Our team will verify with the payment gateway and process refund or credit within 3-5 business days.",
+    "escalation_condition": "Escalate if the customer has not received a refund or credit within 5 business days of reporting a failed recharge."
+  },
+  {
+    "article_id": "ART018",
+    "title": "Understanding Data Usage and Monitoring Consumption",
+    "category": "Data Usage Issues",
+    "issue": "Customer's data balance is depleting faster than expected.",
+    "resolution": "1. Check detailed data usage in MyAccount app under Usage > Data Usage History. 2. Usage is shown per app - identify which apps are consuming the most data. 3. Common high-data apps: video streaming (1-3 GB/hr), video calls (0.5-1 GB/hr), online gaming (0.1-0.3 GB/hr). 4. Enable 'Data Saver' mode in your phone settings to reduce background data usage. 5. Restrict background data for specific apps in phone settings. 6. Set a data usage alert in the MyAccount app to get notified when you reach 80% of your limit. 7. WiFi calls and messages do not consume mobile data.",
+    "escalation_condition": "Escalate if the customer's data usage records show consumption they cannot account for, as this may indicate unauthorized use or a billing system error."
+  },
+  {
+    "article_id": "ART019",
+    "title": "Data Speed Throttling After Fair Usage Policy (FUP)",
+    "category": "Data Usage Issues",
+    "issue": "Customer's internet speeds have been reduced after reaching Fair Usage Policy (FUP) limit.",
+    "resolution": "1. After exhausting your FUP data limit, speeds are reduced to 1 Mbps for broadband and 512 Kbps for mobile. 2. Check your current FUP status in MyAccount under Usage > FUP Status. 3. FUP resets on your bill cycle date (shown in MyAccount). 4. Purchase additional data add-ons to restore full speeds: Data Booster packs available at ₹29 for 1GB, ₹99 for 5GB, ₹199 for 20GB. 5. Add-ons can be purchased through MyAccount, app, or by calling support.",
+    "escalation_condition": "Escalate if the customer's speed is throttled but they have not exceeded their FUP limit, which would indicate a technical error in the usage tracking system."
+  },
+  {
+    "article_id": "ART020",
+    "title": "How to Migrate Between Prepaid and Postpaid Plans",
+    "category": "Plan Upgrade",
+    "issue": "Customer wants to migrate from prepaid to postpaid or vice versa.",
+    "resolution": "1. Prepaid to Postpaid: Visit nearest store or apply online at our website. Bring original ID and address proof. A credit check will be performed. Existing prepaid balance cannot be transferred. Your number is retained. Activation takes 24-48 hours. 2. Postpaid to Prepaid: Clear all outstanding postpaid dues first. Submit migration request via MyAccount or store. Your postpaid plan ends on the current bill date. Get new prepaid SIM or recharge to activate. Migration is free of charge.",
+    "escalation_condition": "Escalate if the customer fails the credit check for postpaid migration or if there are pending dues that need to be resolved before migration can proceed."
+  },
+  {
+    "article_id": "ART021",
+    "title": "WiFi Router Placement and Signal Optimization",
+    "category": "Router Problems",
+    "issue": "Customer experiencing weak WiFi signals in certain areas of their home.",
+    "resolution": "1. Place router in a central location, elevated off the floor. 2. Keep router away from walls, metal objects, and other electronics (especially microwave ovens). 3. Ensure router antennas are positioned vertically for horizontal coverage. 4. Use 5 GHz band for devices close to router (faster, shorter range) and 2.4 GHz for distant devices (slower, longer range). 5. Consider a WiFi extender or mesh network for large homes (area > 1500 sq ft). 6. Our team can recommend and configure a mesh WiFi system - contact support for a consultation. 7. Avoid placing router inside cabinets or behind TVs.",
+    "escalation_condition": "Escalate if the customer's home layout requires a site survey for optimal mesh network placement."
+  },
+  {
+    "article_id": "ART022",
+    "title": "Mobile Network Coverage Issues",
+    "category": "Network Outage",
+    "issue": "Customer experiencing poor or no mobile network coverage in their area.",
+    "resolution": "1. Check our coverage map at coverage.telecomco.com to verify coverage in your area. 2. Indoor coverage may be weaker than outdoor - try making calls near a window. 3. Toggle Airplane Mode off and on to force network reconnection. 4. Ensure your phone is set to the correct network type (4G/LTE or 5G in settings). 5. If in a coverage area but still no signal, remove and reinsert SIM card. 6. Network congestion during events can temporarily reduce signal quality. 7. If coverage is consistently poor at your home address, report it through our coverage improvement tool.",
+    "escalation_condition": "Escalate if the customer is in a verified coverage area but getting no signal, or if the same coverage issue is being reported by multiple customers in the same area."
+  },
+  {
+    "article_id": "ART023",
+    "title": "International Roaming Activation and Usage",
+    "category": "Plan Upgrade",
+    "issue": "Customer wants to use their mobile service while traveling internationally.",
+    "resolution": "1. Activate international roaming through MyAccount > Services > International Roaming. 2. Activation takes 2-4 hours. 3. Select an International Roaming Pack for your destination country for best rates. 4. Without a roaming pack, standard roaming rates apply (very high - calls: ₹10/min, data: ₹10/MB). 5. Supported countries: 190+ countries worldwide. 6. For calls, your local number works abroad with +91 prefix. 7. Deactivate roaming when not needed to avoid accidental charges.",
+    "escalation_condition": "Escalate if roaming is not working in a country that is listed as supported, or if the customer has unexpected roaming charges exceeding ₹2000."
+  },
+  {
+    "article_id": "ART024",
+    "title": "Account Suspension and Reactivation Process",
+    "category": "Billing Issues",
+    "issue": "Customer's account has been suspended due to non-payment or policy violation.",
+    "resolution": "1. Accounts are suspended after 15 days of non-payment following the due date. 2. Check the suspension reason in MyAccount > Account Status. 3. To reactivate for non-payment: Pay outstanding dues through MyAccount, app, or at any of our retail stores. 4. Service is typically restored within 2 hours of payment confirmation. 5. If suspended for policy violation, a review request can be submitted through MyAccount > Account > Review Suspension. 6. Pending dispute-related suspensions are reviewed by our specialist team.",
+    "escalation_condition": "Escalate if the customer's account was suspended despite payments being made on time, or if the account remains suspended more than 4 hours after confirmed payment."
+  },
+  {
+    "article_id": "ART025",
+    "title": "5G Service - Availability, Devices, and Troubleshooting",
+    "category": "Network Outage",
+    "issue": "Customer unable to access 5G network despite being on a 5G plan.",
+    "resolution": "1. Verify 5G coverage in your area at coverage.telecomco.com/5g. 2. Ensure your device is 5G compatible - check device specifications. 3. In phone settings, change network mode to '5G/4G/3G/2G (Auto)'. 4. Remove and reinsert SIM card, then restart phone. 5. Ensure your SIM card is 5G-enabled (must be a nano-SIM issued after 2022). 6. 5G coverage is still expanding - if not available in your area, 4G LTE will be used as fallback. 7. Indoor 5G coverage may be limited due to signal penetration characteristics.",
+    "escalation_condition": "Escalate if the customer is in a confirmed 5G coverage area with a 5G-compatible device and 5G-enabled SIM but still cannot connect to 5G."
+  },
+  {
+    "article_id": "ART026",
+    "title": "Broadband Line Installation and Setup",
+    "category": "Slow Internet",
+    "issue": "Customer requesting new broadband connection installation or setup assistance.",
+    "resolution": "1. Schedule installation online at our website or by calling 1800-TELECOM. 2. Installation typically takes 3-5 business days after application approval. 3. A technician will visit between 9 AM - 6 PM on the scheduled date. 4. Ensure someone is home during the installation window. 5. Installation includes modem setup, router installation, and WiFi configuration. 6. Installation fee is ₹500 (waived for premium plans). 7. After installation, run a speed test to verify your subscribed speed is being delivered.",
+    "escalation_condition": "Escalate if the installation appointment was missed by our technician, or if the installed service is not delivering the subscribed speed."
+  },
+  {
+    "article_id": "ART027",
+    "title": "MyAccount Portal - Login and Password Issues",
+    "category": "Billing Issues",
+    "issue": "Customer unable to log into the MyAccount portal or app.",
+    "resolution": "1. Visit account.telecomco.com and click 'Forgot Password'. 2. Enter your registered mobile number or email address. 3. You will receive an OTP or password reset link within 2 minutes. 4. If OTP is not received, check spam folder (for email) or ensure your registered number is active. 5. New customers: Use the temporary password sent at the time of connection setup. 6. If your registered mobile number is no longer accessible, contact support with your customer ID and ID proof for account recovery. 7. App users: Uninstall and reinstall the app if login fails after password reset.",
+    "escalation_condition": "Escalate if the customer cannot recover account access due to loss of registered mobile number and email, as identity verification will be required."
+  },
+  {
+    "article_id": "ART028",
+    "title": "Static IP Address Assignment for Business Customers",
+    "category": "Plan Upgrade",
+    "issue": "Business customer requesting a static (fixed) IP address for their broadband connection.",
+    "resolution": "1. Static IP is available for Business and Enterprise plan customers. 2. Submit a Static IP request through MyAccount > Business Services > Request Static IP. 3. Provide the purpose of the static IP (hosting, VPN, remote access, etc.). 4. Static IP assignment takes 2-3 business days after approval. 5. Monthly charge for static IP: ₹299/month added to your bill. 6. You can request up to 5 static IPs on a single business connection. 7. Our technical team will send configuration details to your registered email.",
+    "escalation_condition": "Escalate if the customer requires more than 5 static IPs, needs a /29 or larger IP block, or requires the IP assignment within same day."
+  },
+  {
+    "article_id": "ART029",
+    "title": "Family Plan and Multi-SIM Management",
+    "category": "Plan Upgrade",
+    "issue": "Customer wants to add family members to their plan or manage multiple SIMs under one account.",
+    "resolution": "1. Family plans support up to 6 connections under one primary account. 2. Add a family member: MyAccount > Family Plan > Add Member. Provide their mobile number and relationship. 3. Family members get shared data pool or individual allocations depending on plan. 4. Primary account holder gets consolidated billing for all family connections. 5. Family members can be given limited access to view (but not modify) their own usage. 6. Remove a member: MyAccount > Family Plan > Manage Members > Remove. The removed number reverts to individual billing.",
+    "escalation_condition": "Escalate if the customer is experiencing billing discrepancies after adding or removing family members, or if the family plan consolidation feature is not working."
+  },
+  {
+    "article_id": "ART030",
+    "title": "Data Balance Check and Usage Alerts Setup",
+    "category": "Data Usage Issues",
+    "issue": "Customer wants to check remaining data balance or set up usage alerts.",
+    "resolution": "1. Check balance via USSD: Dial *123# and follow prompts for data balance. 2. MyAccount App: Home screen shows real-time data balance and usage breakdown. 3. SMS: Send 'BAL' to 121 to receive balance details via SMS. 4. To set up alerts: MyAccount > Settings > Usage Alerts > Set Data Alert. 5. Set alerts at 50%, 80%, and 100% of data limit for proactive monitoring. 6. Alerts are sent via SMS and app notification. 7. Usage data is updated in near real-time (every 15 minutes) in the MyAccount app.",
+    "escalation_condition": "Escalate if the customer's balance information is inconsistent across different check methods (USSD vs app vs SMS), indicating a possible billing system discrepancy."
+  }
+]
